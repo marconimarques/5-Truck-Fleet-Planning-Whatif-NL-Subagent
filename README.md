@@ -1,4 +1,4 @@
-# Logistics Fleet Sizing Optimizer
+# Logistics Fleet Sizing Planning
 
 A Python CLI tool that calculates the minimum truck fleet required to serve a logistics network, and lets you explore operational scenarios in plain English via a natural language interface. The interface runs in **English** and **Portuguese (Brasil)** — switch at any time with `/language pt_BR` or `/language en`.
 
@@ -164,7 +164,6 @@ logistics-fleet-planning-br/
 │   └── planning_analyst_auditor.md  # Auditor system prompt
 ├── tests/
 ├── runmodel.py                   # Entry point
-├── pyproject.toml
 └── requirements.txt
 ```
 ---
