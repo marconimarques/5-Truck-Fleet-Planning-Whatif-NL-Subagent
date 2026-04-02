@@ -166,7 +166,7 @@ Beyond these limits the application still runs — HiGHS returns the best soluti
 ## Project structure
 
 ```
-logistics-fleet-planning-br/
+logistics-fleet-planning/
 ├── data/                         # Input xlsx files — read-only, never modified by code
 ├── outputs/                      # Generated CSVs + analyst_memory.md
 ├── fleet_sizing/
