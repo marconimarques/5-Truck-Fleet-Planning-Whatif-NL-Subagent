@@ -19,7 +19,7 @@ Total fleet = sum across all lanes. Definitelly very simple calculation.
 ### 4.2 Weighted Average Cycle (operational target)
 A single weighted-average cycle time is computed across all active lanes, weighted by their share of total monthly volume. 
 
-### 4.3 MILP Network Optimisation (precision instrument)
+### 4.3 MILP Network Optimization (precision instrument)
 A mixed-integer linear program (HiGHS solver) builds an explicit day-by-day schedule over a 24-day horizon. It introduces two capabilities the static models cannot capture:
 
 - **One-way trips**: a truck delivers CP→Terminal and stays at the terminal overnight, instead of driving back empty. Another truck repositions it the next morning.
